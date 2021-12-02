@@ -1,0 +1,22 @@
+{
+  "name": "koa-pro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/theprimone/koa-pro.git",
+  "author": "theprimone <yuns.xie@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "koa": "^2.13.4"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@umijs/fabric": "^2.8.1",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}

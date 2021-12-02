@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "moduleResolution": "Node",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "lib": ["esnext"],
+    "removeComments": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": "."
+  },
+  "compileOnSave": false,
+  "includes": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

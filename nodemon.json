@@ -1,0 +1,22 @@
+{
+  "verbose": false,
+  "debug": false,
+  "exec": "ts-node ./src/app.ts",
+  "ignore": [
+    "node_modules",
+    "./test",
+    "**/*.d.ts",
+    "*.test.ts",
+    "*.spec.ts",
+    "fixtures/*",
+    "test/**/*",
+    "docs/*"
+  ],
+  "delay": 1500,
+  "watch": ["./src"],
+  "ext": "ts",
+  "inspect": true,
+  "//": {
+    "delay": "参考地址：https://github.com/remy/nodemon#delaying-restarting，加大延迟后可避免重启时端口冲突"
+  }
+}
