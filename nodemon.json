@@ -1,7 +1,7 @@
 {
   "verbose": false,
   "debug": false,
-  "exec": "ts-node ./src/app.ts",
+  "exec": "node --inspect -r ts-node/register ./src/app.ts",
   "ignore": [
     "node_modules",
     "./test",
